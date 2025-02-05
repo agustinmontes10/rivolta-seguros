@@ -1,0 +1,6 @@
+preguntar al carne
+- si trabaja con cualquier marca y cualquier modelo de auto
+- lista de que datos necesita
+- armar mensaje para enviar a wp con datos armados y preguntarle
+
+123seguro.com.ar
