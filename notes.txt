@@ -4,3 +4,8 @@ preguntar al carne
 - armar mensaje para enviar a wp con datos armados y preguntarle
 
 123seguro.com.ar
+
+PALETA DE COLORES:
+    - #3ec1d3 (CELESTE)
+    - #ffffff (BLANCO)
+    - #152549 (AZUL MARINO)
