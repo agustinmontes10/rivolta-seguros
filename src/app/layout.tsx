@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.variable}`}>
         <h1>layout</h1>
-        <h2>nexus</h2>
+        <h2>nexus222</h2>
         {children}
       </body>
     </html>
