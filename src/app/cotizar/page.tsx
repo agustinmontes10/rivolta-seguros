@@ -81,7 +81,7 @@ export default function CotizarPage() {
         modelo: "",
         año: "",
         tipoSeguro: "Terceros",
-        aseguradora: "Sancor Seguros",
+        aseguradora: "Sancor Seguross",
       });
     } else {
       alert("Error al registrar el cliente");
