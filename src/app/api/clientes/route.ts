@@ -7,7 +7,7 @@ if (!supabaseUrl || !supabaseKey) {
   throw new Error("Supabase URL and Key must be provided.");
 }
 const supabase = createClient(supabaseUrl, supabaseKey);
-
+ 
 // GET: Obtener todos los clientes
 export async function GET() {
   const { data, error } = await supabase.from("clientes").select("*");
