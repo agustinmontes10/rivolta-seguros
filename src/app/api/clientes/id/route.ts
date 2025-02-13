@@ -1,12 +1,12 @@
-import { NextResponse } from "next/server";
+import { NextResponse, NextRequest } from "next/server";
 import { supabase } from "@/lib/supabaseClient";
 
 // DELETE: Eliminar cliente por ID (desde la URL)
+
 export async function DELETE(
-  req: Request,
-  { params }: { params: { id: string } }
+  req: NextRequest
 ) {
-  const { id } = params; // Tomamos el ID desde la URL
+  const id = req.nextUrl.searchParams.get('id'); // Tomamos el ID desde la URL
 
   if (!id) {
     return NextResponse.json(
